@@ -1,0 +1,85 @@
+body {
+  font-family: Tohoma;
+  font-size: 13px;
+  width: 1000px;
+  height: 1200px;
+  margin: 0px auto;
+}
+.container{
+  background-color: rgb(216, 238, 230);
+  width: 1000px;
+ 
+}
+#banner {
+  background-color: rgb(238, 244, 238);
+  height: auto;
+  width: 1000px;
+}
+#banner img {
+  width: 240px;
+}
+#menu_top {
+  background-color: rgb(27, 8, 8);
+  height: 40px;
+}
+#menu_top ul {
+  margin: 0px;
+  padding: 0px;
+}
+#menu_top ul li {
+  list-style: none;
+  float: left;
+}
+#menu_top ul li a {
+  text-decoration: none;
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  color: antiquewhite;
+  padding: 0px 20px 0px 20px;
+  border-right: 1px solid rgb(239, 235, 235);
+}
+#menu_top ul li a.active {
+  background-color: rgb(37, 11, 184);
+}
+
+#main #left {
+  width: 200px;
+  background-color: rgb(152, 227, 202);
+  float: left;
+  min-height: 400px;
+}
+#main #left .menu_left ul {
+  margin: 0px;
+  padding: 0px;
+}
+#main #left .menu_left ul li {
+  list-style: none;
+}
+#main #left .menu_left h3 {
+  background-color: rgb(25, 25, 123) url(./img/7124209_menu_icon.png) no-repeat;
+  height: 40px;
+  margin-top: 0px;
+  font-size: 14px;
+  line-height: 40px;
+  color: azure;
+  text-indent: 25px;
+}
+#main #right {
+  width: 800px;
+  background-color: aqua;
+  float: left;
+  min-height: auto;
+  height: auto;
+}
+#main #right img {
+  width: 800px;
+  height: 400px;
+}
+#footer {
+  width: 1000px;
+  background-color: rgb(239, 49, 49);
+  text-align: center;
+  height: 60px;
+  color: rgb(192, 71, 27);
+}
